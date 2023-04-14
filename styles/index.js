@@ -7,6 +7,7 @@ const styles = {
   xPaddings: 'sm:px-16 px-6',
   topPaddings: 'sm:pt-16 xs:pt-8 pt-12',
   bottomPaddings: 'sm:pb-16 xs:pb-8 pb-12',
+  color: 'text-danger',
 
   flexCenter: 'flex justify-center items-center',
   flexStart: 'flex justify-start items-start',
@@ -15,7 +16,7 @@ const styles = {
 
   // hero section
   heroHeading:
-      'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+      'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600',
   heroDText:
       'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
 };
